@@ -20,6 +20,7 @@ public class SampleActionTest {
 
 	@Test
 	public void testCheckNormal() {
+		//comment
 		SampleAction action = new SampleAction();
 		HttpServletRequest request = createMock(HttpServletRequest.class);
 
